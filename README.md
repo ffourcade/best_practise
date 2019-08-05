@@ -1,50 +1,29 @@
 # best_practise
 
-<div align="center">
-  <img src="https://www.tensorflow.org/images/tf_logo_social.png">
-</div>
+**[ProjectName]** is ...
+Add description of the project, context and what can be done with the code.
 
------------------
+## Repository Structure
 
-
-| **`Documentation`** |
-|-----------------|
-| [![Documentation](https://img.shields.io/badge/api-reference-blue.svg)](https://www.tensorflow.org/api_docs/) |
-
-**TensorFlow** is an open source software library for numerical computation
-using data flow graphs. The graph nodes represent mathematical operations, while
-the graph edges represent the multidimensional data arrays (tensors) that flow
-between them. This flexible architecture enables you to deploy computation to
-one or more CPUs or GPUs in a desktop, server, or mobile device without
-rewriting code. TensorFlow also includes
-[TensorBoard](https://github.com/tensorflow/tensorboard), a data visualization
-toolkit.
-
-TensorFlow was originally developed by researchers and engineers
-working on the Google Brain team within Google's Machine Intelligence Research
-organization for the purposes of conducting machine learning and deep neural
-networks research.  The system is general enough to be applicable in a wide
-variety of other domains, as well.
-
-TensorFlow provides stable Python and C APIs as well as non-guaranteed backwards
-compatible API's for C++, Go, Java, JavaScript, and Swift.
-
-Keep up to date with release announcements and security updates by
-subscribing to
-[announce@tensorflow.org](https://groups.google.com/a/tensorflow.org/forum/#!forum/announce).
+|- app
+|- requirements.py
+|- README.md
+|- .gitignore
 
 ## Installation
 
-To install the current release for CPU-only:
+If your project is packaged :
 
 ```
-pip install tensorflow
+pip install your-package
 ```
 
-Use the GPU package for CUDA-enabled GPU cards:
+Otherwise :
 
 ```
-pip install tensorflow-gpu
+git clone [link_to_your_git_repository]
+cd your_repository
+pip install -r requirements.py
 ```
 
 *See [Installing TensorFlow](https://www.tensorflow.org/install) for detailed
