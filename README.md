@@ -21,7 +21,7 @@ All project shall respect the :
 
 - ```requirements.txt``` contains the list of all packages that need to be installed to make the code work well. <br/>
 See example [here](requirements.txt).
-- ```.gitignore``` lists all the files or files type that must not be loaded into the git repo.<br/> See example [here](requirements.txt).
+- ```.gitignore``` lists all the files or files type that must not be loaded into the git repo.<br/> See example [here](.gitignore).
 - The ```__init__.py``` can be an empty fill but is needed if you want to load your code as a package
 
 ## Code Structure <a name="code-structure"></a>
