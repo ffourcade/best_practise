@@ -6,6 +6,7 @@ All project shall respect the :
 - [Code Structure](#code-structure)
 - [Documentation](#documentation)
 - [Installation](#installation)
+- [Configuration](#config)
 - [How to use](#use)
 
 ## Repository Structure <a name="repository-structure"></a>
@@ -52,6 +53,9 @@ cd your_repository
 pip install -r requirements.txt
 ```
 
+## Configuration <a name="config"></a>
+
+If your code needs some configuration (connection parameters, API keys, name of database, path to local file...) you shall create a ```config.py``` file imported from within your code
 
 ## How to Use <a name="use"></a>
 
@@ -78,8 +82,3 @@ $ python
 >>> your_code.some_other_function(some_other_parameters)
 3
 ```
-
-## License
-
-You shall give the 
-[Apache License 2.0](LICENSE)
