@@ -1,0 +1,4 @@
+# List all extensions or files not to upload in the git repository
+
+*.csv
+*.ipynb

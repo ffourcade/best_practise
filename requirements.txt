@@ -1,0 +1,8 @@
+# Here is where you import all packages your code needs to work.
+# Every line starting with "#" will be ignored
+# Create one line per package
+# Each line will be interpreted  as "pip install ..."
+# Make sure to add the version of each package. By default an environment will download the last version it can access to.
+
+pandas==0.24.2 # For an exact match of the version
+numpy>=1.10 # For the minimum version to use
